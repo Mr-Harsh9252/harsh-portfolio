@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 33);
+  color: #ffe1e1;
+}
+
+header {
+  width: 100%;
+  padding: 0 2rem;
+  background-color: rgb(1, 1, 44);
+  box-shadow: 0 0 9px blue;
+  color: #ffe1e1;
+}
+
+.container-fluid .navbar-brand img{
+  height: 50px;
+  width: 50px;
+}
+
+.navbar-brand{
+  color: #CCC;
+  font-size: 2rem;
+}
+
+.collapse .navbar-nav .nav-item .nav-link{
+  color: #ccc;
+  font-weight: 600;
+  
+}
+
+.navbar-toggler{
+  border: 2px solid blue;
+  color: blue;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+  color: blue;
+}
+
+.container-fluid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand:hover{
+  color: #ccc;
+}
+
+
+/* Hero Section */
+
+.hero-img img{
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  mask-image: linear-gradient(#fff, #fff); mask-size: 100% 100%; mask-repeat: no-repeat;
+}
+
+.about-img,
+.hero-img{
+  filter: drop-shadow(1px 1px 20px blue);
+}
+
+div a button{
+  background-color: #000021;
+  color: #CCC;
+  font-weight: bold;
+}
+
+.heading{
+  text-align: center;
+  font-size: 2rem;
+}
