@@ -77,3 +77,11 @@ div a button{
   text-align: center;
   font-size: 2rem;
 }
+
+.ed-item{
+  height: 20rem;
+}
+
+.ed-item div{
+  height: 18rem;
+}
