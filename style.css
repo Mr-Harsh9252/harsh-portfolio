@@ -64,13 +64,12 @@
     padding-top: 4rem;
   }
   
-  .hero-img img {
+  .hero-img img,
+  .about-img img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    mask-image: linear-gradient(#fff, #fff);
-    mask-size: 100% 100%;
-    mask-repeat: no-repeat;
+    
   }
   
   .about-img,
@@ -132,6 +131,7 @@
   .call,
   .back-to-top,
   .education-item{
+    background-color: rgb(1, 1, 44);
     box-shadow: 0 0 4px blue;
   }
   .whatsapp:hover,
