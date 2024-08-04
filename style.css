@@ -1,142 +1,143 @@
+
 * {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 0, 33);
-  color: #ffe1e1;
-}
-
-header {
-  width: 100%;
-  padding: 0 2rem;
-  background-color: rgb(1, 1, 44);
-  box-shadow: 0 0 9px blue;
-  color: #ffe1e1;
-  z-index: 2;
-}
-
-.container-fluid .navbar-brand img {
-  height: 50px;
-  width: 50px;
-}
-
-.navbar-brand {
-  color: #ccc;
-  font-size: 2rem;
-}
-
-.collapse .navbar-nav .nav-item .nav-link {
-  color: #ccc;
-  font-weight: 600;
-}
-
-.navbar-toggler {
-  border: 2px solid blue;
-  color: blue;
-}
-
-.navbar-toggler .navbar-toggler-icon {
-  color: blue;
-}
-
-.container-fluid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar-brand:hover {
-  color: #ccc;
-}
-
-#hero {
-  padding-top: 4rem;
-}
-
-.heading {
-  padding-top: 6rem;
-  font-size: 2rem;
-}
-.hero-img img {
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
-  mask-image: linear-gradient(#fff, #fff);
-  mask-size: 100% 100%;
-  mask-repeat: no-repeat;
-}
-
-.about-img,
-.hero-img {
-  filter: drop-shadow(1px 1px 20px blue);
-  z-index: 0;
-}
-
-div a button {
-  background-color: #000021;
-  color: #ccc;
-  font-weight: bold;
-}
-
-.heading {
-  text-align: center;
-  font-size: 2rem;
-}
-
-.ed-item div {
-  height: 15rem;
-}
-
-.whatsapp,
-.call,
-.back-to-top {
-  height: 50px;
-  width: 50px;
-  position: fixed;
-  bottom: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-  border: 1px solid blue;
-}
-
-.whatsapp,
-.call {
-  left: 20px;
-  bottom: 100px;
-}
-
-.call {
-  bottom: 40px;
-}
-.back-to-top {
-  right: 20px;
-}
-
-.whatsapp a,
-.call a,
-.back-to-top a {
-  color: #ccc;
-}
-
-.whatsapp,
-.call,
-.back-to-top,
-.education-item{
-  box-shadow: 0 0 4px blue;
-}
-.whatsapp:hover,
-.call:hover,
-.back-to-top:hover,
-.education-item:hover{
-  box-shadow: 0 0 10px blue;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 33);
+    color: #ffe1e1;
+  }
+  
+  header {
+    width: 100%;
+    padding: 0 2rem;
+    background-color: rgb(1, 1, 44);
+    box-shadow: 0 0 9px blue;
+    color: #ffe1e1;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left:0 ;
+  }
+  
+  .container-fluid .navbar-brand img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .navbar-brand {
+    color: #ccc;
+    font-size: 2rem;
+  }
+  
+  .collapse .navbar-nav .nav-item .nav-link {
+    color: #ccc;
+    font-weight: 600;
+  }
+  
+  .navbar-toggler {
+    border: 2px solid blue;
+    color: blue;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon {
+    color: blue;
+  }
+  
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-brand:hover {
+    color: #ccc;
+  }
+  
+  #hero {
+    padding-top: 4rem;
+  }
+  
+  .hero-img img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    mask-image: linear-gradient(#fff, #fff);
+    mask-size: 100% 100%;
+    mask-repeat: no-repeat;
+  }
+  
+  .about-img,
+  .hero-img {
+    filter: drop-shadow(1px 1px 20px blue);
+    z-index: 0;
+  }
+  
+  div a button {
+    background-color: #000021;
+    color: #ccc;
+    font-weight: bold;
+  }
+  
+  .heading {
+    text-align: center;
+    /* font-size: 5px; */
+  }
+  
+  .ed-item div {
+    height: 15rem;
+  }
+  
+  .whatsapp,
+  .call,
+  .back-to-top {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid blue;
+  }
+  
+  .whatsapp,
+  .call {
+    left: 20px;
+    bottom: 100px;
+  }
+  
+  .call {
+    bottom: 40px;
+  }
+  .back-to-top {
+    right: 20px;
+  }
+  
+  .whatsapp a,
+  .call a,
+  .back-to-top a {
+    color: #ccc;
+  }
+  
+  .whatsapp,
+  .call,
+  .back-to-top,
+  .education-item{
+    box-shadow: 0 0 4px blue;
+  }
+  .whatsapp:hover,
+  .call:hover,
+  .back-to-top:hover,
+  .education-item:hover{
+    box-shadow: 0 0 10px blue;
+  }
+  
