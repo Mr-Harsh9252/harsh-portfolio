@@ -141,3 +141,14 @@
     box-shadow: 0 0 10px blue;
   }
   
+
+  @media (max-width: 480px){
+    .heading{
+      font-size: 5rem;
+    }
+  .hero-img img,
+  .about-img img{
+      height: 300px;
+      width: 300px;
+    }
+  }
